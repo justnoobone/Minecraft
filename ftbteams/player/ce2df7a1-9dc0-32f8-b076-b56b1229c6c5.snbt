@@ -1,0 +1,17 @@
+{
+	id: "ce2df7a1-9dc0-32f8-b076-b56b1229c6c5"
+	type: "player"
+	player_name: "_ZZP_"
+	ranks: {
+		ce2df7a1-9dc0-32f8-b076-b56b1229c6c5: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "_ZZP_"
+		"ftbteams:description": ""
+		"ftbteams:color": "#A359FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,17 @@
+{
+	id: "0c67a15b-b8fb-3276-bd45-b3ec14de9ff8"
+	type: "player"
+	player_name: "SenChiu"
+	ranks: {
+		0c67a15b-b8fb-3276-bd45-b3ec14de9ff8: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "SenChiu"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF93"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

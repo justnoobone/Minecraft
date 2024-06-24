@@ -1,0 +1,15 @@
+{
+	id: "03e61e5a-165f-3576-9a77-80f161a1f713"
+	type: "player"
+	player_name: "ZZPOOM"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "ZZPOOM"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF5B"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,17 @@
+{
+	id: "7f5278d4-c54e-46b7-b08a-ddb9d06857e1"
+	type: "party"
+	owner: "0c67a15b-b8fb-3276-bd45-b3ec14de9ff8"
+	ranks: {
+		0c67a15b-b8fb-3276-bd45-b3ec14de9ff8: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "SenChiu's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF93"
+		"ftbteams:free_to_join": 1b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1719236221886L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"SenChiu\"}]}" }]
+	extra: { }
+}

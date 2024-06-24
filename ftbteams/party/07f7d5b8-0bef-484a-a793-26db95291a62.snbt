@@ -1,0 +1,17 @@
+{
+	id: "07f7d5b8-0bef-484a-a793-26db95291a62"
+	type: "party"
+	owner: "03e61e5a-165f-3576-9a77-80f161a1f713"
+	ranks: {
+		03e61e5a-165f-3576-9a77-80f161a1f713: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "1"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF2520"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1719234648060L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"ZZPOOM\"}]}" }]
+	extra: { }
+}

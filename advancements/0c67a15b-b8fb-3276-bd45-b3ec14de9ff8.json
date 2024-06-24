@@ -636,11 +636,15 @@
       "natures_spirit:blooming_sugi_forest": "2024-06-19 14:24:42 +0800",
       "natures_spirit:sleeted_slopes": "2024-06-19 14:50:50 +0800",
       "minecraft:beach": "2024-06-19 14:15:13 +0800",
+      "minecraft:stony_peaks": "2024-06-24 21:57:54 +0800",
       "minecraft:stony_shore": "2024-06-19 14:09:15 +0800",
+      "natures_spirit:oak_savanna": "2024-06-24 22:00:58 +0800",
+      "minecraft:grove": "2024-06-24 21:59:31 +0800",
       "minecraft:jagged_peaks": "2024-06-19 14:03:07 +0800",
       "minecraft:cold_ocean": "2024-06-19 14:20:25 +0800",
       "natures_spirit:shrubby_highlands": "2024-06-18 11:49:18 +0800",
       "minecraft:lush_caves": "2024-06-18 21:00:15 +0800",
+      "natures_spirit:tundra": "2024-06-24 21:58:51 +0800",
       "minecraft:flower_forest": "2024-06-19 14:39:23 +0800",
       "minecraft:frozen_peaks": "2024-06-19 13:50:20 +0800",
       "minecraft:deep_dark": "2024-06-19 21:56:16 +0800",
@@ -648,6 +652,7 @@
       "minecraft:snowy_slopes": "2024-06-19 13:51:19 +0800",
       "minecraft:frozen_river": "2024-06-18 11:47:04 +0800",
       "minecraft:cherry_grove": "2024-06-19 14:39:25 +0800",
+      "natures_spirit:prairie": "2024-06-24 22:00:50 +0800",
       "minecraft:river": "2024-06-18 11:45:45 +0800",
       "natures_spirit:white_cliffs": "2024-06-19 14:15:43 +0800",
       "natures_spirit:sugi_forest": "2024-06-19 14:24:33 +0800",
@@ -665,6 +670,7 @@
       "autumnal_maple_forest": "2024-06-18 11:45:06 +0800",
       "ancient_delta": "2024-06-18 21:33:29 +0800",
       "willow_forest": "2024-06-19 14:07:16 +0800",
+      "poppy_fields": "2024-06-24 22:10:24 +0800",
       "scorching_caves": "2024-06-19 21:58:44 +0800",
       "rocky_meadow": "2024-06-19 13:30:22 +0800",
       "mycotoxic_undergrowth": "2024-06-20 21:07:40 +0800",
@@ -684,6 +690,7 @@
       "shrubland": "2024-06-19 14:39:02 +0800",
       "autumnal_maple_forest": "2024-06-18 11:45:06 +0800",
       "willow_forest": "2024-06-19 14:07:16 +0800",
+      "poppy_fields": "2024-06-24 22:10:24 +0800",
       "rocky_meadow": "2024-06-19 13:30:22 +0800",
       "ochard": "2024-06-19 12:31:52 +0800",
       "flower_fields": "2024-06-19 13:24:21 +0800",
@@ -4965,12 +4972,16 @@
       "minecraft:magma_cube": "2024-06-20 21:32:12 +0800",
       "minecraft:spider": "2024-06-18 15:36:21 +0800",
       "minecraft:creeper": "2024-06-18 15:02:32 +0800",
+      "minecraft:phantom": "2024-06-24 21:07:18 +0800",
       "minecraft:zombified_piglin": "2024-06-20 21:08:11 +0800",
       "minecraft:witch": "2024-06-18 20:07:33 +0800",
       "minecraft:wither_skeleton": "2024-06-20 21:56:11 +0800",
       "minecraft:husk": "2024-06-18 15:44:26 +0800",
+      "minecraft:ender_dragon": "2024-06-24 22:46:37 +0800",
       "minecraft:cave_spider": "2024-06-18 20:36:55 +0800",
       "minecraft:enderman": "2024-06-18 16:12:04 +0800",
+      "minecraft:stray": "2024-06-24 22:09:10 +0800",
+      "minecraft:endermite": "2024-06-24 22:23:00 +0800",
       "minecraft:zombie": "2024-06-18 21:00:30 +0800",
       "minecraft:zombie_villager": "2024-06-19 21:40:28 +0800"
     },
@@ -6789,11 +6800,14 @@
     "criteria": {
       "cooked_porkchop": "2024-06-20 21:20:53 +0800",
       "cooked_mutton": "2024-06-20 20:55:02 +0800",
+      "cooked_beef": "2024-06-24 21:51:58 +0800",
       "apple": "2024-06-19 16:47:01 +0800",
+      "pumpkin_pie": "2024-06-24 21:57:32 +0800",
       "bread": "2024-06-18 19:44:41 +0800",
       "golden_apple": "2024-06-20 21:40:55 +0800",
       "rotten_flesh": "2024-06-20 21:16:03 +0800",
       "glow_berries": "2024-06-19 21:57:15 +0800",
+      "cooked_rabbit": "2024-06-24 21:46:34 +0800",
       "carrot": "2024-06-18 20:11:36 +0800"
     },
     "done": false
@@ -7028,6 +7042,7 @@
   },
   "regions_unexplored:got_wood": {
     "criteria": {
+      "pine_log": "2024-06-24 22:07:18 +0800",
       "silver_birch_log": "2024-06-19 16:38:25 +0800",
       "maple_log": "2024-06-18 19:52:20 +0800"
     },
@@ -10979,6 +10994,7 @@
   "repurposed_structures:pyramids": {
     "criteria": {
       "in_pyramid_nether": "2024-06-20 22:18:30 +0800",
+      "in_pyramid_snowy": "2024-06-24 22:09:03 +0800",
       "in_pyramid_flower_forest": "2024-06-19 13:24:35 +0800"
     },
     "done": false
@@ -16818,6 +16834,48 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-06-21 17:00:35 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/teleportation_robe_leggings": {
+    "criteria": {
+      "has_ender_eye": "2024-06-21 17:00:35 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/end": {
+    "criteria": {
+      "has_ender_eye": "2024-06-21 17:00:35 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/teleportation_robe_helmet": {
+    "criteria": {
+      "has_ender_eye": "2024-06-21 17:00:35 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/teleportation_robe_boots": {
+    "criteria": {
+      "has_ender_eye": "2024-06-21 17:00:35 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/upgrade_cores/upgrade_core_void": {
+    "criteria": {
+      "has_core_specification_item": "2024-06-21 17:00:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-06-21 17:00:35 +0800"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/andesite_bridge_stair": {
     "criteria": {
       "has_planks": "2024-06-21 17:06:49 +0800"
@@ -16836,12 +16894,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_crystal": {
-    "criteria": {
-      "has_ender_eye": "2024-06-21 17:00:35 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cobbled_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-06-21 17:06:49 +0800"
@@ -16857,12 +16909,6 @@
   "stoneworks:recipes/building_blocks/andesite_brick_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-06-21 17:06:49 +0800"
-    },
-    "done": true
-  },
-  "mcda:recipes/base_armors/teleportation_robe_leggings": {
-    "criteria": {
-      "has_ender_eye": "2024-06-21 17:00:35 +0800"
     },
     "done": true
   },
@@ -16932,12 +16978,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/end": {
-    "criteria": {
-      "has_ender_eye": "2024-06-21 17:00:35 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/andesite_tile_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-06-21 17:06:49 +0800"
@@ -16947,12 +16987,6 @@
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-06-21 17:06:49 +0800"
-    },
-    "done": true
-  },
-  "mcda:recipes/base_armors/teleportation_robe_helmet": {
-    "criteria": {
-      "has_ender_eye": "2024-06-21 17:00:35 +0800"
     },
     "done": true
   },
@@ -17004,21 +17038,9 @@
     },
     "done": true
   },
-  "mcda:recipes/base_armors/teleportation_robe_boots": {
-    "criteria": {
-      "has_ender_eye": "2024-06-21 17:00:35 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2024-06-21 17:06:49 +0800"
-    },
-    "done": true
-  },
-  "mcda:recipes/upgrade_cores/upgrade_core_void": {
-    "criteria": {
-      "has_core_specification_item": "2024-06-21 17:00:35 +0800"
     },
     "done": true
   },
@@ -17091,12 +17113,6 @@
   "stoneworks:recipes/building_blocks/mossy_cobbled_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-06-21 17:06:49 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/ender_chest": {
-    "criteria": {
-      "has_ender_eye": "2024-06-21 17:00:35 +0800"
     },
     "done": true
   },
@@ -17181,6 +17197,618 @@
   "mcwbridges:recipes/andesite_bridge_pier": {
     "criteria": {
       "has_planks": "2024-06-21 17:06:49 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/pine_planks": {
+    "criteria": {
+      "has_logs": "2024-06-24 22:07:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "brewery:recipes/sausage": {
+    "criteria": {
+      "has_cooked_beef": "2024-06-24 21:34:00 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/armored_elytra": {
+    "criteria": {
+      "has_item.minecraft.elytra": "2024-06-24 22:46:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_furnace": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_from_vine": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_from_moss": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_tile_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_cracked_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_end_stone_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_plates_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "kafvalentine:recipes/food/chorus_cookie": {
+    "criteria": {
+      "has_chorus_fruit": "2024-06-24 22:46:08 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/birch_shrub": {
+    "criteria": {
+      "has_birch_sapling": "2024-06-24 21:20:24 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/end_stone_bricks_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_shingle_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "bakery:main/find_wild_crops": {
+    "criteria": {
+      "tomato_seeds": "2024-06-24 21:39:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2024-06-24 21:34:05 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-06-24 22:46:37 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_pavers_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-06-24 22:18:40 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_tile_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "ends_delight:root": {
+    "criteria": {
+      "the_end": "2024-06-24 22:33:27 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/fancy_painting": {
+    "criteria": {
+      "has_fancy_painting": "2024-06-24 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_cracked_smelting": {
+    "criteria": {
+      "has_block.minecraft.end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-06-24 22:33:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_end_stone_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/crystalite_elytra": {
+    "criteria": {
+      "has_item.minecraft.elytra": "2024-06-24 22:46:37 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_plate_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_plate_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "ecologics:recipes/food/rabbit_stew_from_red_mushroom_and_coconut_husk": {
+    "criteria": {
+      "has_cooked_rabbit": "2024-06-24 21:34:05 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_end_stone_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/pine_branch_from_pine_log": {
+    "criteria": {
+      "has_log": "2024-06-24 22:07:18 +0800"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/misc/soul_elytra": {
+    "criteria": {
+      "has_elytra": "2024-06-24 22:46:37 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_tile_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2024-06-24 22:33:27 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/phantom_armor_helmet": {
+    "criteria": {
+      "has_phantom_bones": "2024-06-24 21:07:18 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/end_stove": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_end_stone_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_shingle_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_shingles_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2024-06-24 21:34:05 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/pine_wood": {
+    "criteria": {
+      "has_log": "2024-06-24 22:07:18 +0800"
+    },
+    "done": true
+  },
+  "deeperdarker:main/kill_all_sculk_mobs": {
+    "criteria": {
+      "phantom": "2024-06-24 21:07:18 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_end_stone_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-06-24 22:24:56 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/spruce_shrub": {
+    "criteria": {
+      "has_spruce_sapling": "2024-06-24 22:01:53 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_end_stone_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_plate_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_pillar_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "adorabuild_structures:end_structures": {
+    "criteria": {
+      "example": "2024-06-24 22:33:27 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_raw_blasting": {
+    "criteria": {
+      "has_item.betterend.thallasium_raw": "2024-06-24 22:33:41 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_paver_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_end_stone_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/end_stone_lamp": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-06-24 22:46:08 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_tiles_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/endstone_flower_pot": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_paver_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "hangglider:recipes/tools/reinforced_hang_glider": {
+    "criteria": {
+      "has_elytra": "2024-06-24 22:46:37 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/cave_crawler_boots": {
+    "criteria": {
+      "has_spelunker_armor_boots": "2024-06-24 21:47:39 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_shingle_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_end_stone_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_end_stone_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/phantom_armor_chestplate": {
+    "criteria": {
+      "has_phantom_bones": "2024-06-24 21:07:18 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_end_stone_tiles_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-06-24 22:46:37 +0800"
+    },
+    "done": true
+  },
+  "ecologics:recipes/food/rabbit_stew_from_brown_mushroom_and_coconut_husk": {
+    "criteria": {
+      "has_cooked_rabbit": "2024-06-24 21:34:05 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_paver_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/end_kitchen_sink": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "vinery:recipes/white_grape_bag": {
+    "criteria": {
+      "has_white_grape": "2024-06-24 22:11:30 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/end_counter": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "meadow:recipes/limestone_bricks_wall": {
+    "criteria": {
+      "has_cobbled_limestone": "2024-06-24 21:26:16 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/end_stone_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/painting": {
+    "criteria": {
+      "has_painting": "2024-06-24 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "enderitemod:explore_all_end_biomes": {
+    "criteria": {
+      "theend": "2024-06-24 22:33:30 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2024-06-24 22:24:56 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/end_stone_bricks_bridge_stair": {
+    "criteria": {
+      "has_planks": "2024-06-24 22:37:35 +0800"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "vanilla": "2024-06-24 22:46:37 +0800"
+    },
+    "done": false
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-06-24 22:33:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_end_stone_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-06-24 22:33:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_raw_smelting": {
+    "criteria": {
+      "has_item.betterend.thallasium_raw": "2024-06-24 22:33:41 +0800"
+    },
+    "done": true
+  },
+  "meadow:recipes/limestone": {
+    "criteria": {
+      "has_cobbled_limestone": "2024-06-24 21:26:16 +0800"
     },
     "done": true
   },

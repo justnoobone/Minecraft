@@ -1,0 +1,17 @@
+{
+	id: "bc2a7bc5-2c2f-3182-9740-1a4db99a90da"
+	type: "player"
+	player_name: "nbgld"
+	ranks: {
+		bc2a7bc5-2c2f-3182-9740-1a4db99a90da: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "nbgld"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF69"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

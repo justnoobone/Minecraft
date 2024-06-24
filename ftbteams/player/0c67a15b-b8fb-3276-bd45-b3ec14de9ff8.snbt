@@ -2,9 +2,7 @@
 	id: "0c67a15b-b8fb-3276-bd45-b3ec14de9ff8"
 	type: "player"
 	player_name: "SenChiu"
-	ranks: {
-		0c67a15b-b8fb-3276-bd45-b3ec14de9ff8: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "SenChiu"
 		"ftbteams:description": ""

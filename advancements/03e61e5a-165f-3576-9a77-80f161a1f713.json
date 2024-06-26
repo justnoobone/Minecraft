@@ -641,8 +641,10 @@
       "natures_spirit:oak_savanna": "2024-06-24 22:00:50 +0800",
       "minecraft:grove": "2024-06-19 14:41:49 +0800",
       "minecraft:jagged_peaks": "2024-06-19 13:57:35 +0800",
+      "minecraft:cold_ocean": "2024-06-26 22:08:05 +0800",
       "natures_spirit:shrubby_highlands": "2024-06-18 11:49:13 +0800",
       "minecraft:lush_caves": "2024-06-19 12:34:15 +0800",
+      "minecraft:deep_cold_ocean": "2024-06-26 22:09:19 +0800",
       "natures_spirit:tundra": "2024-06-24 22:00:43 +0800",
       "minecraft:frozen_peaks": "2024-06-19 13:50:18 +0800",
       "minecraft:deep_dark": "2024-06-19 21:57:44 +0800",
@@ -659,6 +661,7 @@
       "minecraft:frozen_ocean": "2024-06-18 11:50:19 +0800",
       "minecraft:ocean": "2024-06-19 14:34:09 +0800",
       "minecraft:snowy_beach": "2024-06-18 11:47:06 +0800",
+      "natures_spirit:snowcapped_red_peaks": "2024-06-25 13:09:50 +0800",
       "minecraft:meadow": "2024-06-19 13:29:25 +0800"
     },
     "done": false
@@ -2052,7 +2055,9 @@
       "minecraft:pillager": "2024-06-19 13:36:00 +0800",
       "minecraft:blaze": "2024-06-20 21:46:07 +0800",
       "minecraft:skeleton": "2024-06-18 15:45:53 +0800",
+      "minecraft:elder_guardian": "2024-06-26 22:37:48 +0800",
       "minecraft:ravager": "2024-06-19 21:22:21 +0800",
+      "minecraft:guardian": "2024-06-26 22:11:53 +0800",
       "minecraft:vindicator": "2024-06-19 13:36:35 +0800",
       "minecraft:magma_cube": "2024-06-20 21:19:11 +0800",
       "minecraft:spider": "2024-06-18 15:28:03 +0800",
@@ -2063,11 +2068,14 @@
       "minecraft:witch": "2024-06-24 21:12:49 +0800",
       "minecraft:wither_skeleton": "2024-06-20 21:52:11 +0800",
       "minecraft:husk": "2024-06-18 15:44:53 +0800",
+      "minecraft:shulker": "2024-06-26 20:40:59 +0800",
       "minecraft:cave_spider": "2024-06-18 20:22:37 +0800",
       "minecraft:piglin": "2024-06-19 21:49:18 +0800",
       "minecraft:enderman": "2024-06-19 16:04:18 +0800",
+      "minecraft:silverfish": "2024-06-26 19:54:55 +0800",
       "minecraft:endermite": "2024-06-20 17:22:41 +0800",
       "minecraft:zombie": "2024-06-18 15:45:43 +0800",
+      "minecraft:drowned": "2024-06-26 21:59:49 +0800",
       "minecraft:zombie_villager": "2024-06-19 12:17:26 +0800"
     },
     "done": false
@@ -9459,6 +9467,7 @@
   },
   "repurposed_structures:mineshafts": {
     "criteria": {
+      "in_mineshaft_end": "2024-06-26 20:53:36 +0800",
       "in_mineshaft_dark_forest": "2024-06-18 20:18:49 +0800"
     },
     "done": false
@@ -13226,6 +13235,7 @@
   },
   "repurposed_structures:villages": {
     "criteria": {
+      "in_village_ocean": "2024-06-26 22:00:05 +0800",
       "in_village_dark_forest": "2024-06-19 13:12:17 +0800"
     },
     "done": false
@@ -13623,6 +13633,7 @@
   },
   "repurposed_structures:pyramids": {
     "criteria": {
+      "in_pyramid_ocean": "2024-06-26 22:05:07 +0800",
       "in_pyramid_snowy": "2024-06-24 22:14:16 +0800",
       "in_pyramid_flower_forest": "2024-06-19 13:26:29 +0800"
     },
@@ -13948,7 +13959,8 @@
   },
   "croptopia:gather_food": {
     "criteria": {
-      "toast": "2024-06-19 13:47:37 +0800"
+      "toast": "2024-06-19 13:47:37 +0800",
+      "calamari": "2024-06-26 21:30:18 +0800"
     },
     "done": false
   },
@@ -16453,7 +16465,9 @@
   },
   "enderitemod:explore_all_end_biomes": {
     "criteria": {
-      "theend": "2024-06-20 16:21:45 +0800"
+      "theend": "2024-06-20 16:21:45 +0800",
+      "endbarrens": "2024-06-26 20:20:06 +0800",
+      "smallendislands": "2024-06-26 20:20:08 +0800"
     },
     "done": false
   },
@@ -19559,21 +19573,15 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/building_blocks/pine_planks": {
+  "xercamusic:recipes/metronome": {
     "criteria": {
-      "has_logs": "2024-06-24 22:07:07 +0800"
+      "has_item": "2024-06-24 17:08:35 +0800"
     },
     "done": true
   },
-  "medievalweapons:medieval_dragon_recipes": {
+  "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
-      "medieval_dragon_recipes": "2024-06-24 22:46:54 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-06-24 22:48:31 +0800"
+      "has_the_recipe": "2024-06-24 17:56:44 +0800"
     },
     "done": true
   },
@@ -19583,9 +19591,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/pink_glazed_terracotta": {
+  "mcda:recipes/upgrade_cores/upgrade_core_ember": {
     "criteria": {
-      "has_pink_terracotta": "2024-06-24 21:38:09 +0800"
+      "has_core_specification_item": "2024-06-24 17:56:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2024-06-24 17:56:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2024-06-24 17:56:45 +0800"
     },
     "done": true
   },
@@ -19595,9 +19615,177 @@
     },
     "done": true
   },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2024-06-24 18:16:02 +0800"
+    },
+    "done": true
+  },
+  "deeperdarker:main/kill_all_sculk_mobs": {
+    "criteria": {
+      "phantom": "2024-06-24 20:47:00 +0800"
+    },
+    "done": false
+  },
+  "mcda:recipes/base_armors/phantom_armor_helmet": {
+    "criteria": {
+      "has_phantom_bones": "2024-06-24 20:47:01 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/enchanted_membrane": {
+    "criteria": {
+      "has_item.minecraft.phantom_membrane": "2024-06-24 20:47:01 +0800"
+    },
+    "done": true
+  },
+  "spawn:recipes/snail/ghostly_mucus_block_from_phantom_membrane": {
+    "criteria": {
+      "has_raw_item": "2024-06-24 20:47:01 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/phantom_armor_chestplate": {
+    "criteria": {
+      "has_phantom_bones": "2024-06-24 20:47:01 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/phantom_trophy": {
+    "criteria": {
+      "has_phantom_trophy": "2024-06-24 20:47:01 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/horse_feed": {
+    "criteria": {
+      "has_golden_carrot": "2024-06-24 21:22:10 +0800"
+    },
+    "done": true
+  },
+  "meadow:recipes/limestone_bricks_wall": {
+    "criteria": {
+      "has_cobbled_limestone": "2024-06-24 21:26:20 +0800"
+    },
+    "done": true
+  },
+  "meadow:recipes/limestone": {
+    "criteria": {
+      "has_cobbled_limestone": "2024-06-24 21:26:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-06-24 21:37:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-06-24 21:37:13 +0800"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/slime": {
+    "criteria": {
+      "has_item": "2024-06-24 21:37:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-06-24 21:37:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-06-24 21:37:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2024-06-24 21:37:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_glazed_terracotta": {
+    "criteria": {
+      "has_pink_terracotta": "2024-06-24 21:38:09 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/pine_planks": {
+    "criteria": {
+      "has_logs": "2024-06-24 22:07:07 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/pine_branch_from_pine_log": {
+    "criteria": {
+      "has_log": "2024-06-24 22:07:07 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/pine_wood": {
+    "criteria": {
+      "has_log": "2024-06-24 22:07:07 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/pine_shrub": {
+    "criteria": {
+      "has_pine_sapling": "2024-06-24 22:07:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-06-24 22:18:40 +0800"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:shadow_forest": "2024-06-24 22:33:30 +0800",
+      "betterend:sulphur_springs": "2024-06-26 20:29:42 +0800",
+      "betterend:ice_starfield": "2024-06-26 20:22:37 +0800",
+      "betterend:glowing_grasslands": "2024-06-26 20:51:47 +0800",
+      "betterend:umbra_valley": "2024-06-26 20:50:51 +0800",
+      "betterend:umbrella_jungle": "2024-06-26 20:48:59 +0800",
+      "betterend:blossoming_spires": "2024-06-26 20:22:20 +0800"
+    },
+    "done": false
+  },
   "betterend:recipes/misc/thallasium_ingot_furnace_ore_blasting": {
     "criteria": {
       "has_block.betterend.thallasium_ore": "2024-06-24 22:44:22 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_ore_smelting": {
+    "criteria": {
+      "has_block.betterend.thallasium_ore": "2024-06-24 22:44:22 +0800"
+    },
+    "done": true
+  },
+  "medievalweapons:medieval_dragon_recipes": {
+    "criteria": {
+      "medieval_dragon_recipes": "2024-06-24 22:46:54 +0800"
+    },
+    "done": true
+  },
+  "dragonloot:dragon_recipes": {
+    "criteria": {
+      "dragon_recipes": "2024-06-24 22:46:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-24 22:48:31 +0800"
     },
     "done": true
   },
@@ -19619,18 +19807,6 @@
     },
     "done": true
   },
-  "mcda:recipes/upgrade_cores/upgrade_core_ember": {
-    "criteria": {
-      "has_core_specification_item": "2024-06-24 17:56:45 +0800"
-    },
-    "done": true
-  },
-  "xercamusic:recipes/metronome": {
-    "criteria": {
-      "has_item": "2024-06-24 17:08:35 +0800"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/end_stone_bricks_bridge_pier": {
     "criteria": {
       "has_planks": "2024-06-24 22:48:31 +0800"
@@ -19643,27 +19819,9 @@
     },
     "done": true
   },
-  "minecraft:story/follow_ender_eye": {
-    "criteria": {
-      "in_stronghold": "2024-06-24 22:18:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2024-06-24 21:37:13 +0800"
-    },
-    "done": true
-  },
   "betterend:recipes/misc/end_stone_brick_cracked_smelting": {
     "criteria": {
       "has_block.minecraft.end_stone_bricks": "2024-06-24 22:48:31 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/horse_feed": {
-    "criteria": {
-      "has_golden_carrot": "2024-06-24 21:22:10 +0800"
     },
     "done": true
   },
@@ -19673,39 +19831,9 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/decorations/pine_branch_from_pine_log": {
-    "criteria": {
-      "has_log": "2024-06-24 22:07:07 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/thallasium_ingot_furnace_ore_smelting": {
-    "criteria": {
-      "has_block.betterend.thallasium_ore": "2024-06-24 22:44:22 +0800"
-    },
-    "done": true
-  },
-  "betterend:all_the_biomes": {
-    "criteria": {
-      "betterend:shadow_forest": "2024-06-24 22:33:30 +0800"
-    },
-    "done": false
-  },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_slime_ball": "2024-06-24 21:37:13 +0800"
-    },
-    "done": true
-  },
   "betterend:recipes/misc/end_stone_brick_weathered_wall": {
     "criteria": {
       "has_end_stone_bricks": "2024-06-24 22:48:31 +0800"
-    },
-    "done": true
-  },
-  "mcda:recipes/base_armors/phantom_armor_helmet": {
-    "criteria": {
-      "has_phantom_bones": "2024-06-24 20:47:01 +0800"
     },
     "done": true
   },
@@ -19715,57 +19843,9 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/building_blocks/pine_wood": {
-    "criteria": {
-      "has_log": "2024-06-24 22:07:07 +0800"
-    },
-    "done": true
-  },
-  "deeperdarker:main/kill_all_sculk_mobs": {
-    "criteria": {
-      "phantom": "2024-06-24 20:47:00 +0800"
-    },
-    "done": false
-  },
-  "betterend:recipes/misc/enchanted_membrane": {
-    "criteria": {
-      "has_item.minecraft.phantom_membrane": "2024-06-24 20:47:01 +0800"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/balustrade_end_stone_bricks_bridge": {
     "criteria": {
       "has_planks": "2024-06-24 22:48:31 +0800"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_egg": {
-    "criteria": {
-      "dragon_egg": "2024-06-24 22:48:41 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/thallasium_ingot_furnace_raw_blasting": {
-    "criteria": {
-      "has_item.betterend.thallasium_raw": "2024-06-24 23:57:16 +0800"
-    },
-    "done": true
-  },
-  "spawn:recipes/snail/ghostly_mucus_block_from_phantom_membrane": {
-    "criteria": {
-      "has_raw_item": "2024-06-24 20:47:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-06-24 21:37:32 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/fire_charge": {
-    "criteria": {
-      "has_blaze_powder": "2024-06-24 17:56:45 +0800"
     },
     "done": true
   },
@@ -19775,57 +19855,9 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/decorations/pine_shrub": {
-    "criteria": {
-      "has_pine_sapling": "2024-06-24 22:07:23 +0800"
-    },
-    "done": true
-  },
-  "dragonloot:dragon_recipes": {
-    "criteria": {
-      "dragon_recipes": "2024-06-24 22:46:54 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ender_eye": {
-    "criteria": {
-      "has_blaze_powder": "2024-06-24 17:56:45 +0800"
-    },
-    "done": true
-  },
-  "mcda:recipes/base_armors/phantom_armor_chestplate": {
-    "criteria": {
-      "has_phantom_bones": "2024-06-24 20:47:01 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/phantom_trophy": {
-    "criteria": {
-      "has_phantom_trophy": "2024-06-24 20:47:01 +0800"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/slime": {
-    "criteria": {
-      "has_item": "2024-06-24 21:37:13 +0800"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/dragon": {
-    "criteria": {
-      "has_dragon_egg": "2024-06-24 22:48:41 +0800"
-    },
-    "done": true
-  },
   "candlelight:recipes/end_kitchen_sink": {
     "criteria": {
       "has_end_stone_bricks": "2024-06-24 22:48:31 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_birch_wood": {
-    "criteria": {
-      "has_log": "2024-06-24 21:37:32 +0800"
     },
     "done": true
   },
@@ -19841,21 +19873,9 @@
     },
     "done": true
   },
-  "meadow:recipes/limestone_bricks_wall": {
-    "criteria": {
-      "has_cobbled_limestone": "2024-06-24 21:26:20 +0800"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/end_stone_bricks_bridge": {
     "criteria": {
       "has_planks": "2024-06-24 22:48:31 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/sticky_piston": {
-    "criteria": {
-      "has_slime_ball": "2024-06-24 21:37:13 +0800"
     },
     "done": true
   },
@@ -19871,21 +19891,27 @@
     },
     "done": true
   },
-  "farmersdelight:main/use_cutting_board": {
-    "criteria": {
-      "cutting_board": "2024-06-24 18:16:02 +0800"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/end_stone_bricks_bridge_stair": {
     "criteria": {
       "has_planks": "2024-06-24 22:48:31 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
+  "minecraft:end/dragon_egg": {
     "criteria": {
-      "has_the_recipe": "2024-06-24 17:56:44 +0800"
+      "dragon_egg": "2024-06-24 22:48:41 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/dragon": {
+    "criteria": {
+      "has_dragon_egg": "2024-06-24 22:48:41 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_raw_blasting": {
+    "criteria": {
+      "has_item.betterend.thallasium_raw": "2024-06-24 23:57:16 +0800"
     },
     "done": true
   },
@@ -19895,9 +19921,1898 @@
     },
     "done": true
   },
-  "meadow:recipes/limestone": {
+  "supplementaries:recipes/netherite_trapdoor": {
     "criteria": {
-      "has_cobbled_limestone": "2024-06-24 21:26:20 +0800"
+      "has_netherite_scrap": "2024-06-25 11:30:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-06-25 11:30:26 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/netherite_door": {
+    "criteria": {
+      "has_netherite_scrap": "2024-06-25 11:30:26 +0800"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
+    "criteria": {
+      "has_netherite_scrap": "2024-06-25 11:30:26 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/rubeus_bark": {
+    "criteria": {
+      "has_rubeus_log": "2024-06-25 11:40:19 +0800"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/ice_bricks": {
+    "criteria": {
+      "has_ice": "2024-06-25 11:56:35 +0800"
+    },
+    "done": true
+  },
+  "frostiful:recipes/decorations/ice_pane": {
+    "criteria": {
+      "has_ice": "2024-06-25 11:56:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2024-06-25 11:56:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_machete_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "medievalweapons:medieval_netherite_recipes": {
+    "criteria": {
+      "medieval_netherite_recipes": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "spikyspikes:recipes/decorations/netherite_spike_smithing_transform": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "medievalweapons:medieval_gilded_netherite_recipes": {
+    "criteria": {
+      "medieval_gilded_netherite_recipes": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "mcdw:recipes/swords/sword_dark_katana": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/combat/sterling_chestplate_smithing": {
+    "criteria": {
+      "has_silver_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/combat/sterling_leggings_smithing": {
+    "criteria": {
+      "has_silver_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/safe": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/combat/sterling_boots_smithing": {
+    "criteria": {
+      "has_silver_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "enchantinginfuser:recipes/decorations/advanced_enchanting_infuser": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/upgrade_cores/upgrade_core": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/combat/sterling_helmet_smithing": {
+    "criteria": {
+      "has_silver_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/combat/sterling_horse_armor_smithing": {
+    "criteria": {
+      "has_silver_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-25 12:24:52 +0800"
+    },
+    "done": true
+  },
+  "mcdw:recipes/daggers/dagger_fangs_of_frost": {
+    "criteria": {
+      "has_snow_block": "2024-06-25 13:10:14 +0800"
+    },
+    "done": true
+  },
+  "frostiful:recipes/building_block/packed_snow_block": {
+    "criteria": {
+      "has_snow_block": "2024-06-25 13:10:14 +0800"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/snow_bricks": {
+    "criteria": {
+      "has_snow_block": "2024-06-25 13:10:14 +0800"
+    },
+    "done": true
+  },
+  "verdantvibes:recipes/light_gray_dye_from_candytuft": {
+    "criteria": {
+      "has_candytuft": "2024-06-25 13:12:25 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/hay_wheelbarrow": {
+    "criteria": {
+      "has_planks": "2024-06-25 13:24:03 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/laying_hay_bale": {
+    "criteria": {
+      "has_planks": "2024-06-25 13:24:03 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/standing_hay_bale": {
+    "criteria": {
+      "has_planks": "2024-06-25 13:24:03 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/fodder": {
+    "criteria": {
+      "has_hay_block": "2024-06-25 13:24:03 +0800"
+    },
+    "done": true
+  },
+  "dummmmmmy:recipes/dummy_crafting": {
+    "criteria": {
+      "has_hay_block": "2024-06-25 13:24:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-06-25 13:24:03 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/slice_map": {
+    "criteria": {
+      "has_map": "2024-06-25 13:25:47 +0800"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "illager_camp": "2024-06-25 13:26:05 +0800"
+    },
+    "done": false
+  },
+  "betterend:recipes/misc/thallasium_chandelier": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_pressure_plate": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "medievalweapons:medieval_thallasium_end_recipes": {
+    "criteria": {
+      "medieval_thallasium_end_recipes": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_chain": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_door": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_nuggets_from_ingot": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_block": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bars": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_trapdoor": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_anvil": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-06-26 19:48:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-06-26 20:00:05 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_brick_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_tiles_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_bricks": {
+    "criteria": {
+      "has_flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_polished_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_button": {
+    "criteria": {
+      "has_flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_pressure_plate": {
+    "criteria": {
+      "has_flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_bricks_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_brick_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_furnace": {
+    "criteria": {
+      "has_flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_brick_stair_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_wall": {
+    "criteria": {
+      "has_flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_stairs": {
+    "criteria": {
+      "has_flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_slab": {
+    "criteria": {
+      "has_flavolite": "2024-06-26 20:10:54 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_plant_dye": {
+    "criteria": {
+      "has_shadow_plant": "2024-06-26 20:19:20 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/dragon_tree_log": {
+    "criteria": {
+      "has_dragon_tree_bark": "2024-06-26 20:21:11 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/fiber_string": {
+    "criteria": {
+      "has_silk_fiber": "2024-06-26 20:21:56 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/tenanea_log": {
+    "criteria": {
+      "has_tenanea_bark": "2024-06-26 20:22:10 +0800"
+    },
+    "done": true
+  },
+  "betterend:portal": {
+    "criteria": {
+      "eternal_portal": "2024-06-26 20:22:43 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern": {
+    "criteria": {
+      "has_glowing_bulb": "2024-06-26 20:29:23 +0800"
+    },
+    "done": true
+  },
+  "betterend:all_the_templates": {
+    "criteria": {
+      "got_netherite": "2024-06-26 20:45:03 +0800",
+      "got_leather": "2024-06-26 20:29:53 +0800",
+      "got_aeternium": "2024-06-26 20:42:59 +0800",
+      "got_handle": "2024-06-26 20:30:51 +0800",
+      "got_terminite": "2024-06-26 20:43:54 +0800",
+      "got_thallasium": "2024-06-26 20:41:25 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-26 20:31:24 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/shulker_armor_helmet": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-26 20:31:24 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/shulker_armor_boots": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-26 20:31:24 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/shulker_armor_leggings": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-26 20:31:24 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/respawn_obelisk": {
+    "criteria": {
+      "has_aurora_crystal": "2024-06-26 20:31:35 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2024-06-26 21:46:49 +0800"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/fried_calamari": {
+    "criteria": {
+      "has_calamari": "2024-06-26 21:30:18 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingle_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_tiles_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/calcite_pillar_trim": {
+    "criteria": {
+      "has_calcite_pillar_trim": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dry_bamboo_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingle_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/raw_purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "hybrid-aquatic:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_the_recipe": "2024-06-26 22:37:49 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dry_bamboo_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/bookshelf_smithing": {
+    "criteria": {
+      "has_bookshelf": "2024-06-26 21:51:44 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_shingle_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "hopo:minecraft/adventure/locate_all_underwater_structures": {
+    "criteria": {
+      "locate_ruin_cold": "2024-06-26 22:08:09 +0800"
+    },
+    "done": false
+  },
+  "stoneworks:recipes/building_blocks/prismarine_paver_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_calamari": {
+    "criteria": {
+      "has_calamari": "2024-06-26 21:30:18 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_shingles_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_brick_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_purpur_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_paver_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingle_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_purpur_tiles_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flute": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_slab": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_brick_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plates_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_tile_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/polished_calcite_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_stairs_from_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_purpur_brick_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_slab": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "hybrid-aquatic:recipes/food/cooked_tentacle_from_smoking": {
+    "criteria": {
+      "has_raw_tentacle": "2024-06-26 22:14:28 +0800"
+    },
+    "done": true
+  },
+  "betterend:thallasium_anvil": {
+    "criteria": {
+      "got_thallasium_anvil": "2024-06-26 23:30:14 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bamboo_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_brick_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_wall_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/fancy_painting": {
+    "criteria": {
+      "has_fancy_painting": "2024-06-26 21:45:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_slab": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tile_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-06-26 22:35:09 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tiles_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/prismarine": {
+    "criteria": {
+      "has_item": "2024-06-26 22:11:57 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_prismarine_bricks_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_furnace": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-06-26 22:35:09 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_shingle_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_pillar_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2024-06-26 22:37:49 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_block_to_perl": {
+    "criteria": {
+      "has_ender_block": "2024-06-26 23:44:44 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_bricks_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_brick_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_polished_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-26 22:11:57 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_plate_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_pavers_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ocelot": {
+    "criteria": {
+      "has_cod": "2024-06-26 22:35:10 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plate_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_prismarine_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/raw_purpur_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2024-06-26 22:24:53 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_shingle_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/squid": {
+    "criteria": {
+      "has_ink_sac": "2024-06-26 21:30:23 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_paver_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_pillar_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2024-06-26 20:43:25 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_tile_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "awesomedungeonocean:ocean_ruin_pillager/find_normal": {
+    "criteria": {
+      "requirement": "2024-06-26 22:02:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_plate_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-06-26 22:35:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-06-26 22:03:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-06-26 22:35:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_stairs": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-06-26 22:09:57 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/polished_calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap/map": {
+    "criteria": {
+      "has_filled_map": "2024-06-26 22:01:46 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_purpur_brick_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/bamboo_mat": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_button": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-06-26 22:35:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-26 22:11:57 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tile_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_purpur_brick_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/raw_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_paver_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plate_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_paver_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_brick_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/iron_golem_smithing": {
+    "criteria": {
+      "has_iron_golem": "2024-06-26 22:29:01 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/bamboo_stove": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_paver_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_prismarine_tiles_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_paver_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/bamboo_thatch/bamboo_thatch": {
+    "criteria": {
+      "has_bamboo_leaves": "2024-06-26 22:26:41 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-26 21:30:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2024-06-26 22:01:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_wall": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-06-26 22:35:09 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_stairs": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/slime_ball_smelting": {
+    "criteria": {
+      "has_block.betterend.jellyshroom_cap_purple": "2024-06-26 20:49:30 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_anvil_updrade": {
+    "criteria": {
+      "has_block.betterend.thallasium_anvil": "2024-06-26 23:30:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2024-06-26 21:30:23 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_tile_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_pressure_plate": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_stair_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bamboo_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_brick_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/bamboo_kitchen_sink": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_calcite_tiles_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "hybrid-aquatic:recipes/food/cooked_tentacle_from_campfire_cooking": {
+    "criteria": {
+      "has_raw_tentacle": "2024-06-26 22:14:28 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plate_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_slab_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/upgrade_cores/upgrade_core_highland": {
+    "criteria": {
+      "has_core_specification_item": "2024-06-26 21:46:49 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_chandelier": {
+    "criteria": {
+      "has_lumecorn_rod": "2024-06-26 20:53:12 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_tiles_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/missing_tile": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_slab_from_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tile_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/bug_net": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_smoking_calamari": {
+    "criteria": {
+      "has_calamari": "2024-06-26 21:30:18 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_tiles_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "awesomedungeonocean:ocean_quad/find_normal": {
+    "criteria": {
+      "requirement": "2024-06-26 22:10:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_brick_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/bamboo_counter": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/polished_calcite": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_prismarine_brick_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_wall": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_stairs": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_purpur_bricks_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/squid_smithing": {
+    "criteria": {
+      "has_squid": "2024-06-26 21:31:54 +0800"
+    },
+    "done": true
+  },
+  "bountifulfares:obtain_spongekin_seeds": {
+    "criteria": {
+      "obtain_spongekin_seeds": "2024-06-26 22:39:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_bricks_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_plates_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "beachparty:palm_torch": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_prismarine_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-26 22:11:57 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_tile_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_wall": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_tile_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_pavers_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "awesomedungeonocean:root": {
+    "criteria": {
+      "awesomedungeonocean:ocean_ruin_pillager": "2024-06-26 22:02:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_paver_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "hybrid-aquatic:recipes/food/cooked_tentacle_from_smelting": {
+    "criteria": {
+      "has_raw_tentacle": "2024-06-26 22:14:28 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingles_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_pavers_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_purpur_bricks_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/painting": {
+    "criteria": {
+      "has_painting": "2024-06-26 21:45:49 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_plate_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_bricks": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/calcite_corner_trim": {
+    "criteria": {
+      "has_calcite_corner_trim": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_brick_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_purpur_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_brick_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_bricks_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_prismarine_bricks_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_paver_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-06-26 20:43:25 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_stairs_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_wall_from_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/raw_purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_prismarine_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_brick_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_tile_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
     },
     "done": true
   },

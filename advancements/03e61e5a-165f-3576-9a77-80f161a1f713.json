@@ -638,6 +638,7 @@
       "natures_spirit:sleeted_slopes": "2024-06-19 14:50:51 +0800",
       "minecraft:beach": "2024-06-19 14:27:33 +0800",
       "minecraft:stony_peaks": "2024-06-24 21:57:54 +0800",
+      "minecraft:dripstone_caves": "2024-06-30 22:32:34 +0800",
       "natures_spirit:oak_savanna": "2024-06-24 22:00:50 +0800",
       "minecraft:grove": "2024-06-19 14:41:49 +0800",
       "minecraft:jagged_peaks": "2024-06-19 13:57:35 +0800",
@@ -4249,6 +4250,7 @@
   },
   "brewery:main/wild_crops": {
     "criteria": {
+      "hops": "2024-06-30 21:13:06 +0800",
       "hops_seeds": "2024-06-18 19:32:28 +0800"
     },
     "done": false
@@ -14992,7 +14994,8 @@
   },
   "brewery:main/crop_collector": {
     "criteria": {
-      "brewery:corn": "2024-06-19 16:19:11 +0800"
+      "brewery:corn": "2024-06-19 16:19:11 +0800",
+      "brewery:hops": "2024-06-30 21:13:06 +0800"
     },
     "done": false
   },
@@ -20454,45 +20457,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/grilled_salmon": {
-    "criteria": {
-      "has_salmon": "2024-06-26 22:25:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/emerald": {
-    "criteria": {
-      "has_emerald_block": "2024-06-26 21:46:49 +0800"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/fried_calamari": {
-    "criteria": {
-      "has_calamari": "2024-06-26 21:30:18 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_wall_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_calcite_slab_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_calcite_wall_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_shingle_slab_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
     },
     "done": true
   },
@@ -20502,51 +20469,9 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/calcite_pillar_trim": {
-    "criteria": {
-      "has_calcite_pillar_trim": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/dry_bamboo_bridge": {
-    "criteria": {
-      "has_planks": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_shingle_wall_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_prismarine_brick_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/raw_purpur_stairs_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "hybrid-aquatic:recipes/building_blocks/sponge": {
-    "criteria": {
-      "has_the_recipe": "2024-06-26 22:37:49 +0800"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/dry_bamboo_bridge_pier": {
-    "criteria": {
-      "has_planks": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/bookshelf_smithing": {
-    "criteria": {
-      "has_bookshelf": "2024-06-26 21:51:44 +0800"
     },
     "done": true
   },
@@ -20556,39 +20481,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/polished_calcite_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "hopo:minecraft/adventure/locate_all_underwater_structures": {
-    "criteria": {
-      "locate_ruin_cold": "2024-06-26 22:08:09 +0800"
-    },
-    "done": false
-  },
-  "stoneworks:recipes/building_blocks/prismarine_paver_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/cooked_calamari_from_calamari": {
-    "criteria": {
-      "has_calamari": "2024-06-26 21:30:18 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/purpur_shingles_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_brick_stairs_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
     },
     "done": true
   },
@@ -20598,21 +20493,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/purpur_paver_slab_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_shingle_stairs_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
     },
     "done": true
   },
@@ -20622,45 +20505,9 @@
     },
     "done": true
   },
-  "supplementaries:recipes/flute": {
-    "criteria": {
-      "has_bamboo": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_calcite_bricks_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cobbled_purpur_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_slab": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_prismarine_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
-    "criteria": {
-      "has_salmon": "2024-06-26 22:25:27 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_prismarine_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
     },
     "done": true
   },
@@ -20670,39 +20517,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/calcite_plates_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_tile_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/calcite/polished_calcite_stonecutting": {
-    "criteria": {
-      "has_item": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "geodes:recipes/building_blocks/calcite_stairs_from_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
     },
     "done": true
   },
@@ -20712,63 +20529,9 @@
     },
     "done": true
   },
-  "twigs:recipes/calcite/calcite_slab": {
-    "criteria": {
-      "has_item": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_calcite_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "hybrid-aquatic:recipes/food/cooked_tentacle_from_smoking": {
-    "criteria": {
-      "has_raw_tentacle": "2024-06-26 22:14:28 +0800"
-    },
-    "done": true
-  },
-  "betterend:thallasium_anvil": {
-    "criteria": {
-      "got_thallasium_anvil": "2024-06-26 23:30:14 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_wall_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/bamboo_bridge_pier": {
-    "criteria": {
-      "has_planks": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/purpur_brick_wall_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/calcite/calcite_wall_stonecutting": {
-    "criteria": {
-      "has_item": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_slab": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/fancy_painting": {
-    "criteria": {
-      "has_fancy_painting": "2024-06-26 21:45:49 +0800"
     },
     "done": true
   },
@@ -20778,69 +20541,9 @@
     },
     "done": true
   },
-  "geodes:recipes/building_blocks/calcite_slab": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_tile_slab_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_prismarine_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
-    "criteria": {
-      "has_kelp": "2024-06-26 22:35:09 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_tiles_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_slab_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/prismarine": {
-    "criteria": {
-      "has_item": "2024-06-26 22:11:57 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_prismarine_bricks_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/purpur_slab": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_furnace": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2024-06-26 22:35:09 +0800"
     },
     "done": true
   },
@@ -20856,117 +20559,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/prismarine_pillar_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sponge": {
-    "criteria": {
-      "has_wet_sponge": "2024-06-26 22:37:49 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/ender_block_to_perl": {
-    "criteria": {
-      "has_ender_block": "2024-06-26 23:44:44 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_bricks_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_stairs_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_brick_wall_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_polished_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_bricks": {
-    "criteria": {
-      "has_prismarine_shard": "2024-06-26 22:11:57 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_slab_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_plate_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_pavers_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_prismarine_brick_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/ocelot": {
-    "criteria": {
-      "has_cod": "2024-06-26 22:35:10 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_plate_slab_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_prismarine_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/raw_purpur_wall_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_brick_slab_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
-    "criteria": {
-      "has_salmon": "2024-06-26 22:25:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lime_dye_from_smelting": {
-    "criteria": {
-      "has_sea_pickle": "2024-06-26 22:24:53 +0800"
     },
     "done": true
   },
@@ -20976,45 +20571,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/squid": {
-    "criteria": {
-      "has_ink_sac": "2024-06-26 21:30:23 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_paver_slab_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_pillar_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
-    "criteria": {
-      "has_spire_armor_trim_smithing_template": "2024-06-26 20:43:25 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_pillar_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/polished_purpur_slab_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_prismarine_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
     },
     "done": true
   },
@@ -21024,117 +20583,9 @@
     },
     "done": true
   },
-  "awesomedungeonocean:ocean_ruin_pillager/find_normal": {
-    "criteria": {
-      "requirement": "2024-06-26 22:02:25 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_plate_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
-    "criteria": {
-      "has_cod": "2024-06-26 22:35:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sea_lantern": {
-    "criteria": {
-      "has_prismarine_crystals": "2024-06-26 22:03:31 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick_from_bamboo_item": {
-    "criteria": {
-      "has_bamboo": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod": {
-    "criteria": {
-      "has_cod": "2024-06-26 22:35:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bamboo_block": {
-    "criteria": {
-      "has_bamboo": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_stairs": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
-    "criteria": {
-      "has_enchanted_golden_apple": "2024-06-26 22:09:57 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/calcite/polished_calcite_bricks_from_calcite_stonecutting": {
-    "criteria": {
-      "has_item": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/soap/map": {
-    "criteria": {
-      "has_filled_map": "2024-06-26 22:01:46 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/mossy_purpur_brick_stairs_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/bamboo_mat": {
-    "criteria": {
-      "has_bamboo": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_button": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_prismarine_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_smoking": {
-    "criteria": {
-      "has_cod": "2024-06-26 22:35:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine": {
-    "criteria": {
-      "has_prismarine_shard": "2024-06-26 22:11:57 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_tile_stairs_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
     },
     "done": true
   },
@@ -21162,105 +20613,15 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/calcite_plate_stairs_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_paver_stairs_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/purpur_brick_stairs_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/iron_golem_smithing": {
-    "criteria": {
-      "has_iron_golem": "2024-06-26 22:29:01 +0800"
-    },
-    "done": true
-  },
-  "candlelight:recipes/bamboo_stove": {
-    "criteria": {
-      "has_bamboo": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_calcite_stairs_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/polished_purpur_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_paver_wall_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_prismarine_tiles_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_paver_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/bamboo_thatch/bamboo_thatch": {
-    "criteria": {
-      "has_bamboo_leaves": "2024-06-26 22:26:41 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/squid_ink_pasta": {
-    "criteria": {
-      "has_any_ingredient": "2024-06-26 21:30:23 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/conduit": {
-    "criteria": {
-      "has_nautilus_shell": "2024-06-26 22:01:08 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/calcite/calcite_wall": {
-    "criteria": {
-      "has_item": "2024-06-26 22:12:21 +0800"
     },
     "done": true
   },
@@ -21276,87 +20637,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
-    "criteria": {
-      "has_kelp": "2024-06-26 22:35:09 +0800"
-    },
-    "done": true
-  },
-  "geodes:recipes/building_blocks/calcite_stairs": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/slime_ball_smelting": {
-    "criteria": {
-      "has_block.betterend.jellyshroom_cap_purple": "2024-06-26 20:49:30 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/thallasium_anvil_updrade": {
-    "criteria": {
-      "has_block.betterend.thallasium_anvil": "2024-06-26 23:30:14 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye": {
-    "criteria": {
-      "has_ink_sac": "2024-06-26 21:30:23 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/purpur_tile_wall_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_pressure_plate": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_brick_stair_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/chiseled_calcite_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/bamboo_bridge": {
-    "criteria": {
-      "has_planks": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_calcite_brick_wall_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "candlelight:recipes/bamboo_kitchen_sink": {
-    "criteria": {
-      "has_bamboo": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_calcite_tiles_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
     },
     "done": true
   },
@@ -21366,51 +20649,9 @@
     },
     "done": true
   },
-  "hybrid-aquatic:recipes/food/cooked_tentacle_from_campfire_cooking": {
-    "criteria": {
-      "has_raw_tentacle": "2024-06-26 22:14:28 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_plate_wall_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/calcite/calcite_slab_stonecutting": {
-    "criteria": {
-      "has_item": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cobbled_purpur_slab_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "mcda:recipes/upgrade_cores/upgrade_core_highland": {
-    "criteria": {
-      "has_core_specification_item": "2024-06-26 21:46:49 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/terminite_chandelier": {
-    "criteria": {
-      "has_lumecorn_rod": "2024-06-26 20:53:12 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_tiles_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
     },
     "done": true
   },
@@ -21426,195 +20667,9 @@
     },
     "done": true
   },
-  "geodes:recipes/building_blocks/calcite_slab_from_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_prismarine_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_tile_wall_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "naturalist:recipes/naturalist/bug_net": {
-    "criteria": {
-      "has_bamboo": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/cooked_calamari_from_smoking_calamari": {
-    "criteria": {
-      "has_calamari": "2024-06-26 21:30:18 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_calcite_slab_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_bricks_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_tiles_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/fish_stew": {
-    "criteria": {
-      "has_any_ingredient": "2024-06-26 22:25:27 +0800"
-    },
-    "done": true
-  },
-  "awesomedungeonocean:ocean_quad/find_normal": {
-    "criteria": {
-      "requirement": "2024-06-26 22:10:20 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_brick_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_stairs_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_calcite_stairs_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "candlelight:recipes/bamboo_counter": {
-    "criteria": {
-      "has_bamboo": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/calcite/polished_calcite": {
-    "criteria": {
-      "has_item": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_prismarine_brick_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon": {
-    "criteria": {
-      "has_salmon": "2024-06-26 22:25:27 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_wall": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/calcite/calcite_stairs": {
-    "criteria": {
-      "has_item": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cracked_purpur_bricks_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/squid_smithing": {
-    "criteria": {
-      "has_squid": "2024-06-26 21:31:54 +0800"
-    },
-    "done": true
-  },
-  "bountifulfares:obtain_spongekin_seeds": {
-    "criteria": {
-      "obtain_spongekin_seeds": "2024-06-26 22:39:02 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/prismarine_wall": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_bricks_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_plates_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_calcite_wall_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "beachparty:palm_torch": {
-    "criteria": {
-      "has_bamboo": "2024-06-26 22:26:39 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/chiseled_prismarine_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_prismarine": {
-    "criteria": {
-      "has_prismarine_shard": "2024-06-26 22:11:57 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_wall_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
     },
     "done": true
   },
@@ -21624,45 +20679,9 @@
     },
     "done": true
   },
-  "geodes:recipes/building_blocks/calcite_wall": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_tile_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/prismarine_pavers_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "awesomedungeonocean:root": {
-    "criteria": {
-      "awesomedungeonocean:ocean_ruin_pillager": "2024-06-26 22:02:25 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/purpur_paver_wall_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "hybrid-aquatic:recipes/food/cooked_tentacle_from_smelting": {
-    "criteria": {
-      "has_raw_tentacle": "2024-06-26 22:14:28 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/calcite_shingles_from_calcite_stonecutting": {
-    "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
     },
     "done": true
   },
@@ -21678,15 +20697,135 @@
     },
     "done": true
   },
-  "candlelight:recipes/painting": {
+  "stoneworks:recipes/building_blocks/polished_purpur_wall_from_purpur_block_stonecutting": {
     "criteria": {
-      "has_painting": "2024-06-26 21:45:49 +0800"
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/prismarine_plate_stairs_from_prismarine_stonecutting": {
+  "stoneworks:recipes/building_blocks/purpur_bricks_from_purpur_block_stonecutting": {
     "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/raw_purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2024-06-26 20:43:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-06-26 20:43:25 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_slab": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_furnace": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_polished_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_stairs": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_button": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_pressure_plate": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_stair_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_tiles_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_wall": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_bricks_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
     },
     "done": true
   },
@@ -21696,39 +20835,345 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/calcite_corner_trim": {
+  "betterend:recipes/misc/sulphuric_rock_brick_wall_stonecutting": {
     "criteria": {
-      "has_calcite_corner_trim": "2024-06-26 22:12:21 +0800"
+      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_calcite_brick_stairs_from_calcite_stonecutting": {
+  "betterend:recipes/misc/slime_ball_smelting": {
     "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
+      "has_block.betterend.jellyshroom_cap_purple": "2024-06-26 20:49:30 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/cracked_calcite_bricks_from_calcite_stonecutting": {
+  "betterend:recipes/misc/terminite_chandelier": {
     "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
+      "has_lumecorn_rod": "2024-06-26 20:53:12 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/polished_purpur_wall_from_purpur_block_stonecutting": {
+  "croptopia:recipes/misc/fried_calamari": {
     "criteria": {
-      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+      "has_calamari": "2024-06-26 21:30:18 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_calcite_brick_slab_from_calcite_stonecutting": {
+  "croptopia:recipes/food/cooked_calamari_from_calamari": {
     "criteria": {
-      "has_calcite": "2024-06-26 22:12:21 +0800"
+      "has_calamari": "2024-06-26 21:30:18 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/purpur_bricks_from_purpur_block_stonecutting": {
+  "croptopia:recipes/food/cooked_calamari_from_smoking_calamari": {
     "criteria": {
-      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+      "has_calamari": "2024-06-26 21:30:18 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/squid": {
+    "criteria": {
+      "has_ink_sac": "2024-06-26 21:30:23 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-26 21:30:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2024-06-26 21:30:23 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/squid_smithing": {
+    "criteria": {
+      "has_squid": "2024-06-26 21:31:54 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/fancy_painting": {
+    "criteria": {
+      "has_fancy_painting": "2024-06-26 21:45:49 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/painting": {
+    "criteria": {
+      "has_painting": "2024-06-26 21:45:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2024-06-26 21:46:49 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/upgrade_cores/upgrade_core_highland": {
+    "criteria": {
+      "has_core_specification_item": "2024-06-26 21:46:49 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/bookshelf_smithing": {
+    "criteria": {
+      "has_bookshelf": "2024-06-26 21:51:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2024-06-26 22:01:08 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap/map": {
+    "criteria": {
+      "has_filled_map": "2024-06-26 22:01:46 +0800"
+    },
+    "done": true
+  },
+  "awesomedungeonocean:ocean_ruin_pillager/find_normal": {
+    "criteria": {
+      "requirement": "2024-06-26 22:02:25 +0800"
+    },
+    "done": true
+  },
+  "awesomedungeonocean:root": {
+    "criteria": {
+      "awesomedungeonocean:ocean_ruin_pillager": "2024-06-26 22:02:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-06-26 22:03:31 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_paver_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_tile_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_prismarine_bricks_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_pillar_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_bricks_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_plate_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_prismarine_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_plate_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_prismarine_tiles_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_paver_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_tiles_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_brick_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_prismarine_brick_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_plates_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_prismarine_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_tile_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_pavers_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_plate_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
     },
     "done": true
   },
@@ -21750,9 +21195,381 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+  "stoneworks:recipes/building_blocks/polished_prismarine_from_prismarine_stonecutting": {
     "criteria": {
-      "has_smithing_trim_template": "2024-06-26 20:43:25 +0800"
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/prismarine_tile_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-06-26 22:06:19 +0800"
+    },
+    "done": true
+  },
+  "hopo:minecraft/adventure/locate_all_underwater_structures": {
+    "criteria": {
+      "locate_ruin_cold": "2024-06-26 22:08:09 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-06-26 22:09:57 +0800"
+    },
+    "done": true
+  },
+  "awesomedungeonocean:ocean_quad/find_normal": {
+    "criteria": {
+      "requirement": "2024-06-26 22:10:20 +0800"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/prismarine": {
+    "criteria": {
+      "has_item": "2024-06-26 22:11:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-26 22:11:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-26 22:11:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-26 22:11:57 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingle_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/calcite_pillar_trim": {
+    "criteria": {
+      "has_calcite_pillar_trim": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingle_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_brick_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingle_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plates_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/polished_calcite_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_stairs_from_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_slab": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_wall_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_slab": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tile_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tiles_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_brick_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_pavers_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plate_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_paver_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_pillar_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/polished_calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tile_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plate_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_paver_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_paver_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_wall": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_stairs": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_brick_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_calcite_tiles_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plate_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_slab_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_slab_from_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tile_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/polished_calcite": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_stairs": {
+    "criteria": {
+      "has_item": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_wall_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "geodes:recipes/building_blocks/calcite_wall": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingles_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/calcite_corner_trim": {
+    "criteria": {
+      "has_calcite_corner_trim": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_brick_stairs_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_brick_slab_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2024-06-26 22:12:21 +0800"
     },
     "done": true
   },
@@ -21768,33 +21585,141 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/raw_purpur_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_prismarine_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-06-26 20:40:42 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/calcite_brick_slab_from_calcite_stonecutting": {
     "criteria": {
       "has_calcite": "2024-06-26 22:12:21 +0800"
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_brick_wall_stonecutting": {
+  "hybrid-aquatic:recipes/food/cooked_tentacle_from_smoking": {
     "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-06-26 20:46:33 +0800"
+      "has_raw_tentacle": "2024-06-26 22:14:28 +0800"
+    },
+    "done": true
+  },
+  "hybrid-aquatic:recipes/food/cooked_tentacle_from_campfire_cooking": {
+    "criteria": {
+      "has_raw_tentacle": "2024-06-26 22:14:28 +0800"
+    },
+    "done": true
+  },
+  "hybrid-aquatic:recipes/food/cooked_tentacle_from_smelting": {
+    "criteria": {
+      "has_raw_tentacle": "2024-06-26 22:14:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2024-06-26 22:24:53 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-06-26 22:25:27 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dry_bamboo_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dry_bamboo_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flute": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bamboo_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/bamboo_mat": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/bamboo_stove": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bamboo_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/bamboo_kitchen_sink": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/bug_net": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/bamboo_counter": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
+    },
+    "done": true
+  },
+  "beachparty:palm_torch": {
+    "criteria": {
+      "has_bamboo": "2024-06-26 22:26:39 +0800"
     },
     "done": true
   },
@@ -21804,15 +21729,711 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/prismarine_tile_stairs_from_prismarine_stonecutting": {
+  "twigs:recipes/bamboo_thatch/bamboo_thatch": {
     "criteria": {
-      "has_prismarine": "2024-06-26 22:06:19 +0800"
+      "has_bamboo_leaves": "2024-06-26 22:26:41 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_from_purpur_block_stonecutting": {
+  "travelersbackpack:recipes/misc/iron_golem_smithing": {
     "criteria": {
-      "has_purpur_block": "2024-06-26 20:40:42 +0800"
+      "has_iron_golem": "2024-06-26 22:29:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-06-26 22:35:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-06-26 22:35:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-06-26 22:35:09 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ocelot": {
+    "criteria": {
+      "has_cod": "2024-06-26 22:35:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-06-26 22:35:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-06-26 22:35:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-06-26 22:35:10 +0800"
+    },
+    "done": true
+  },
+  "hybrid-aquatic:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_the_recipe": "2024-06-26 22:37:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2024-06-26 22:37:49 +0800"
+    },
+    "done": true
+  },
+  "bountifulfares:obtain_spongekin_seeds": {
+    "criteria": {
+      "obtain_spongekin_seeds": "2024-06-26 22:39:02 +0800"
+    },
+    "done": true
+  },
+  "betterend:thallasium_anvil": {
+    "criteria": {
+      "got_thallasium_anvil": "2024-06-26 23:30:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_anvil_updrade": {
+    "criteria": {
+      "has_block.betterend.thallasium_anvil": "2024-06-26 23:30:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_block_to_perl": {
+    "criteria": {
+      "has_ender_block": "2024-06-26 23:44:44 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/cat_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "xercapaint:recipes/item_canvas": {
+    "criteria": {
+      "has_item": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "things:gleaming_compound": {
+    "criteria": {
+      "gleaming_compound": "2024-06-30 22:59:46 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/columns/quartz_column": {
+    "criteria": {
+      "has_item": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_paver_wall_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_medium_pot": {
+    "criteria": {
+      "has_terracotta_medium_pot": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_pavers_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_shingle_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_plate_wall_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "croptopia:recipes/beer": {
+    "criteria": {
+      "has_hops": "2024-06-30 21:13:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-06-30 20:29:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_quartz_brick_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_quartz_wall_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/letter_open": {
+    "criteria": {
+      "has_paper": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/quartz_pillar_trim": {
+    "criteria": {
+      "has_quartz_pillar_trim": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/cincinnasite_ingot_from_ore_blasting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_ore": "2024-06-30 20:29:28 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_plate": {
+    "criteria": {
+      "has_terracotta_plate": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2024-06-30 22:09:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_wide_pot": {
+    "criteria": {
+      "has_terracotta_wide_pot": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sponge": {
+    "criteria": {
+      "has_sponge": "2024-06-30 22:07:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_paver_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_tile_slab_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_quartz_wall_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/cincinnasite_ingot_from_ore_smelting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_ore": "2024-06-30 20:29:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/pumpkin_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/pumpkin_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/ghost_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/ghost_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_paver_slab_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_shingle_slab_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_quartz_brick_slab_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_thin_pot": {
+    "criteria": {
+      "has_terracotta_thin_pot": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_cup": {
+    "criteria": {
+      "has_terracotta_cup": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_plates_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_quartz_tiles_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/witch_hat_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/witch_hat_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_plate_slab_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/napkin": {
+    "criteria": {
+      "has_paper": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_quartz_wall_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_plate_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_tile_wall_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_quartz_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/terracotta": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/present": {
+    "criteria": {
+      "has_paper": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/paper_lanterns/paper_lantern": {
+    "criteria": {
+      "has_item": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/bat_wall_deco_3": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/bat_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/bat_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/love_letter_open": {
+    "criteria": {
+      "has_paper": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_quartz_slab_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/quartz_corner_trim": {
+    "criteria": {
+      "has_quartz_corner_trim": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_bowl": {
+    "criteria": {
+      "has_terracotta_bowl": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_quartz_brick_wall_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_shingle_wall_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_shingles_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "xercamusic:recipes/music_sheet": {
+    "criteria": {
+      "has_item": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_thick_pot": {
+    "criteria": {
+      "has_terracotta_thick_pot": "2024-06-30 21:35:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_quartz_slab_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_quartz_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/spider_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/spider_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_quartz_slab_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_tile_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-06-30 20:29:21 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/quartz_tiles_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/columns/quartz_column_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-30 20:44:02 +0800"
+    },
+    "done": true
+  },
+  "candlelight:recipes/table_sign": {
+    "criteria": {
+      "has_paper": "2024-06-30 21:57:57 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_quartz_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-30 20:44:02 +0800"
     },
     "done": true
   },

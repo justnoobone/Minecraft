@@ -7161,7 +7161,8 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "sweet_berries": "2024-06-18 19:39:39 +0800",
-      "sugar_cane": "2024-07-15 21:54:17 +0800"
+      "sugar_cane": "2024-07-15 21:54:17 +0800",
+      "potato": "2024-07-21 13:51:43 +0800"
     },
     "done": false
   },
@@ -7173,6 +7174,7 @@
       "baked_potato": "2024-06-18 20:11:44 +0800",
       "apple": "2024-06-19 14:34:05 +0800",
       "potato": "2024-06-19 14:55:15 +0800",
+      "poisonous_potato": "2024-07-21 13:50:23 +0800",
       "bread": "2024-06-19 14:56:20 +0800",
       "cookie": "2024-06-19 17:32:04 +0800",
       "rotten_flesh": "2024-06-19 10:25:48 +0800",
@@ -26465,12 +26467,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/tide_armor_trim_smithing_template": {
-    "criteria": {
-      "has_tide_armor_trim_smithing_template": "2024-07-21 01:14:57 +0800"
-    },
-    "done": true
-  },
   "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall": {
     "criteria": {
       "has_smooth_stone_bricks": "2024-07-20 23:26:03 +0800"
@@ -26483,39 +26479,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/tide_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2024-07-21 01:14:57 +0800"
-    },
-    "done": true
-  },
-  "graveyard:graveyard/middle_bone_staff": {
-    "criteria": {
-      "middle_bone_staff": "2024-07-21 01:37:53 +0800"
-    },
-    "done": true
-  },
-  "overweight_farming:building_blocks/vegetable_compost": {
-    "criteria": {
-      "has_vegetable_peels": "2024-07-21 00:35:58 +0800"
-    },
-    "done": true
-  },
-  "expandedstorage:recipes/misc/old_netherite_chest": {
-    "criteria": {
-      "has_previous_block": "2024-07-21 01:28:34 +0800"
-    },
-    "done": true
-  },
   "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall_from_smooth_stone_brick_stonecutting": {
     "criteria": {
       "has_smooth_stone_bricks": "2024-07-20 23:26:03 +0800"
-    },
-    "done": true
-  },
-  "mcda:recipes/upgrade_cores/upgrade_core_depth": {
-    "criteria": {
-      "has_core_specification_item": "2024-07-21 01:32:37 +0800"
     },
     "done": true
   },
@@ -26526,6 +26492,12 @@
     "done": true
   },
   "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs_from_smooth_stone_brick_stonecutting": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2024-07-20 23:26:03 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs": {
     "criteria": {
       "has_smooth_stone_bricks": "2024-07-20 23:26:03 +0800"
     },
@@ -26543,15 +26515,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/diamond": {
-    "criteria": {
-      "has_diamond_block": "2024-07-21 01:32:37 +0800"
-    },
-    "done": true
-  },
   "mcda:recipes/unique_armors/renegade_armor_boots": {
     "criteria": {
       "has_mercenary_armor_boots": "2024-07-20 23:31:25 +0800"
+    },
+    "done": true
+  },
+  "overweight_farming:building_blocks/vegetable_compost": {
+    "criteria": {
+      "has_vegetable_peels": "2024-07-21 00:35:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template": {
+    "criteria": {
+      "has_tide_armor_trim_smithing_template": "2024-07-21 01:14:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-07-21 01:14:57 +0800"
     },
     "done": true
   },
@@ -26561,15 +26545,39 @@
     },
     "done": true
   },
+  "expandedstorage:recipes/misc/old_netherite_chest": {
+    "criteria": {
+      "has_previous_block": "2024-07-21 01:28:34 +0800"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/old_obsidian_to_obsidian_chest": {
+    "criteria": {
+      "has_item": "2024-07-21 01:28:34 +0800"
+    },
+    "done": true
+  },
+  "mcda:recipes/upgrade_cores/upgrade_core_depth": {
+    "criteria": {
+      "has_core_specification_item": "2024-07-21 01:32:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-07-21 01:32:37 +0800"
+    },
+    "done": true
+  },
   "graveyard:graveyard/upper_bone_staff": {
     "criteria": {
       "upper_bone_staff": "2024-07-21 01:37:48 +0800"
     },
     "done": true
   },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs": {
+  "graveyard:graveyard/middle_bone_staff": {
     "criteria": {
-      "has_smooth_stone_bricks": "2024-07-20 23:26:03 +0800"
+      "middle_bone_staff": "2024-07-21 01:37:53 +0800"
     },
     "done": true
   },
@@ -26579,9 +26587,45 @@
     },
     "done": true
   },
-  "expandedstorage:recipes/misc/old_obsidian_to_obsidian_chest": {
+  "bloomingnature:recipes/chestnut_wood": {
     "criteria": {
-      "has_item": "2024-07-21 01:28:34 +0800"
+      "has_chestnut_log": "2024-07-21 10:31:52 +0800"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/netherite_barrel": {
+    "criteria": {
+      "has_previous_block": "2024-07-21 12:01:01 +0800"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/diamond_barrel": {
+    "criteria": {
+      "has_previous_block": "2024-07-21 11:59:36 +0800"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/iron_barrel": {
+    "criteria": {
+      "has_previous_block": "2024-07-21 11:58:49 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/orange_maple_sapling_from_orange_maple_shrub": {
+    "criteria": {
+      "has_orange_maple_shrub": "2024-07-21 10:50:53 +0800"
+    },
+    "done": true
+  },
+  "bloomingnature:recipes/chestnut_planks": {
+    "criteria": {
+      "has_chestnut_log": "2024-07-21 10:31:52 +0800"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/obsidian_barrel": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 12:01:00 +0800"
     },
     "done": true
   },

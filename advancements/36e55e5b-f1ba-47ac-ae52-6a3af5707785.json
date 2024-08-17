@@ -1,0 +1,646 @@
+{
+  "advancednetherite:recipes/building_blocks/netherite_iron_block": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/cactus_slab": {
+    "criteria": {
+      "has_cactus_slab": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/dark_oak": {
+    "criteria": {
+      "has_dark_oak": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/crimson": {
+    "criteria": {
+      "has_crimson": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/jungle": {
+    "criteria": {
+      "has_jungle": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "craemon:player_head_drops": {
+    "criteria": {
+      "tick": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_egg": {
+    "criteria": {
+      "has_eggs": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/warped": {
+    "criteria": {
+      "has_warped": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "adorabuild_structures:overworld_structures": {
+    "criteria": {
+      "always": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "seasonsextras:recipes/tinted_greenhouse_glass": {
+    "criteria": {
+      "has_glass": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/soul_sand": {
+    "criteria": {
+      "has_soul": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "betternether:root": {
+    "criteria": {
+      "welcome": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "global:stonecutter_damage": {
+    "criteria": {
+      "requirement": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/netherite_diamond_block": {
+    "criteria": {
+      "has_ingredients": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/pumpkin_slab": {
+    "criteria": {
+      "has_pumpkin_slab": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/armored_ice_skates": {
+    "criteria": {
+      "has_fur_boots": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "seasonsextras:recipes/season_calendar": {
+    "criteria": {
+      "has_clock": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "gurkis:gardenersdream": {
+    "criteria": {
+      "requirement": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "frostiful:recipes/misc/snowflake_banner_pattern": {
+    "criteria": {
+      "has_packed_snowball": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/birch": {
+    "criteria": {
+      "has_birch": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/stone": {
+    "criteria": {
+      "has_stone": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/building_blocks/netherite_emerald_block": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/pumpkin_slice": {
+    "criteria": {
+      "has_pumpkin_slice": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "rpg_classes:root": {
+    "criteria": {
+      "always": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "meadow:main/root": {
+    "criteria": {
+      "seeds": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/sandstone": {
+    "criteria": {
+      "has_sand": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/acacia": {
+    "criteria": {
+      "has_acacia": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/oak": {
+    "criteria": {
+      "has_oak": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "seasonsextras:recipes/greenhouse_glass": {
+    "criteria": {
+      "has_glass": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mythicmobs:mythicmobs": {
+    "criteria": {
+      "tick": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/hedge": {
+    "criteria": {
+      "has_birch": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "herbalbrews:main/root": {
+    "criteria": {
+      "seeds": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/fur_padded_chainmail_leggings": {
+    "criteria": {
+      "has_fur_armor": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "soaringstructures2:soaringstart": {
+    "criteria": {
+      "adv_test": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "vinery:main/root": {
+    "criteria": {
+      "seeds": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/netherite_iron_block": {
+    "criteria": {
+      "has_ingredients": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/netherite_ingots": {
+    "criteria": {
+      "has_ingredients": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/ice_skates": {
+    "criteria": {
+      "has_fur_boots": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2024-07-29 22:28:24 +0800",
+      "inv_changed-diamond": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "gurkis:root": {
+    "criteria": {
+      "requirement": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/netherite_emerald_block": {
+    "criteria": {
+      "has_ingredients": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/netherite_gold_block": {
+    "criteria": {
+      "has_ingredients": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/prismarine": {
+    "criteria": {
+      "has_qq": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/quartz": {
+    "criteria": {
+      "has_qq": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "beautify:progression/root": {
+    "criteria": {
+      "Install": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/mangrove": {
+    "criteria": {
+      "has_mangrove": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/building_blocks/netherite_diamond_block": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/carved_pumpkin_slab": {
+    "criteria": {
+      "has_carved_pumpkin_slab": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "seasonsextras:recipes/season_detector": {
+    "criteria": {
+      "has_detector": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/nether": {
+    "criteria": {
+      "has_nether_brick": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/carved_melon": {
+    "criteria": {
+      "has_carved_melon": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/cactus": {
+    "criteria": {
+      "has_cactus": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/bamboo": {
+    "criteria": {
+      "has_bamboo": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "seasonsextras:recipes/crop_season_tester": {
+    "criteria": {
+      "has_iron": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/building_blocks/netherite_gold_block": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/spruce": {
+    "criteria": {
+      "has_spruce": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "the_bumblezone:root": {
+    "criteria": {
+      "instant_granted": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_gold_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "niftycarts:recipes/supply_cart": {
+    "criteria": {
+      "has_wheel": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "bakery:main/root": {
+    "criteria": {
+      "seeds": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "niftycarts:recipes/plow": {
+    "criteria": {
+      "has_wheel": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-07-29 22:28:57 +0800"
+    },
+    "done": true
+  },
+  "xercamusic:achievements/root": {
+    "criteria": {
+      "crafting_table": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:plushables/root": {
+    "criteria": {
+      "root": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_gold_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "regions_unexplored:parent": {
+    "criteria": {
+      "load_in_world": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "seasonsextras:recipes/air_conditioning": {
+    "criteria": {
+      "has_furnace": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/end": {
+    "criteria": {
+      "has_end_brick": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/melon": {
+    "criteria": {
+      "has_melon": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "craemon:main": {
+    "criteria": {
+      "tick": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/melon_slab": {
+    "criteria": {
+      "has_melon_slab": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/carved_melon_slab": {
+    "criteria": {
+      "has_carved_melon_slab": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/fur_padded_chainmail_helmet": {
+    "criteria": {
+      "has_fur_armor": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/mud_brick": {
+    "criteria": {
+      "has_qq": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "totw_modded:root": {
+    "criteria": {
+      "sample_trigger": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/deepslate": {
+    "criteria": {
+      "has_deepslate": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/fur_padded_chainmail_chestplate": {
+    "criteria": {
+      "has_fur_armor": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "the_bumblezone:wiki": {
+    "criteria": {
+      "instant_granted": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "brewery:main/root": {
+    "criteria": {
+      "seeds": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "gardenersdream:root": {
+    "criteria": {
+      "requirement": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "global:un_pogaz": {
+    "criteria": {
+      "trigger": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/fur_padded_chainmail_boots": {
+    "criteria": {
+      "has_fur_armor": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "natures_spirit:shrubby_highlands": "2024-07-29 22:28:24 +0800"
+    },
+    "done": false
+  },
+  "exposure:recipes/tools/camera": {
+    "criteria": {
+      "has_iron": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "candlelight:main/root": {
+    "criteria": {
+      "seeds": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "things:root": {
+    "criteria": {
+      "tick": "2024-07-29 22:28:23 +0800"
+    },
+    "done": true
+  },
+  "niftycarts:recipes/animal_cart": {
+    "criteria": {
+      "has_wheel": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "melonslabs:recipes/juicer": {
+    "criteria": {
+      "has_cactus": "2024-07-29 22:28:24 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

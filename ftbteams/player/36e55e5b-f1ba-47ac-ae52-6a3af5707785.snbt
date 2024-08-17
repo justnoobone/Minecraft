@@ -1,0 +1,17 @@
+{
+	id: "36e55e5b-f1ba-47ac-ae52-6a3af5707785"
+	type: "player"
+	player_name: "XiaoHuoChai001"
+	ranks: {
+		36e55e5b-f1ba-47ac-ae52-6a3af5707785: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "XiaoHuoChai001"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF5C"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
